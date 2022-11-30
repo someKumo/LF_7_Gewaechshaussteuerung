@@ -1,3 +1,4 @@
 # LF_7_Gewaechshaussteuerung
 
-## Übersicht über die Messbereiche
+itjoy-pi03
+pi
