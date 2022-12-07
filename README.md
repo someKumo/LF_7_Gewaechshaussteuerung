@@ -1,4 +1,5 @@
 # LF_7_Gewaechshaussteuerung
 
-- itjoy-pi03
+- 1. RDP -> itjoy-pi03
 - pi
+- adminadmin
