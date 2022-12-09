@@ -38,7 +38,9 @@ try:
 
         while not result.is_valid():
                 result = instance.read()
-        lcd.message = "Temperature: " % str(int(round(result.temperature,0))) % "\n" % "Humidity: " % str(int(round(result.humidity,0)))        
+        temp = int(round(result.temperature,0))
+        humi = int(round(result.humidity,0))
+        lcd.message = "Temperature: %s \nHumidity: %s" % (temp,humi)
         time.sleep(15)
         i = i + 1
 
